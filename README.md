@@ -1,4 +1,4 @@
-#State-Server
+# State-Server
 -------------------
 
 * Author: Yinchen Li
@@ -9,28 +9,39 @@ This small code puzzle is using Tomcat Web Server with JAVA 8.
 You will need to use Java 8.
 
 
-##Steps to run
+## Steps to run
+```
+git clone https://github.com/YINCHENLI/StateServer
+cd StateServer
+```
+Maven build
 
+```
+mvn package
+```
 
+Run the state server
 
+```
+java -jar target/dependency/webapp-runner.jar target/*.war
+```
 
 Open a new terminal, and post messages on port 8080
 
 ```
-curl -d "longitude=-77.036133&latitude=40.513799" http://localhost:8080/State-Server/FindState
+curl -d "longitude=-77.036133&latitude=40.513799" http://localhost:8080/FindState
 ```
+
 It shall return 
+
 ```
 [-77.036133,40.513799] is located in Pennsylvania
 ```
 
-If you would like see the code, it is located at webapps directory.
 
+## Java classes
 
-
-##Java classes
-
-###FindState.java
+### FindState.java
 The logic to determine whether a position is inside a polygon.
 
 1) Draw a horizontal line to the right of each point and extend it to infinity [ in the code, I used the left most extreme longitude as ```-DOUBLE.MAX_VALUE``` as x ]
