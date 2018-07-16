@@ -26,7 +26,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/FindState.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1100">
-              <caret line="107" column="62" lean-forward="true" selection-start-line="107" selection-start-column="62" selection-end-line="107" selection-end-column="62" />
+              <caret line="107" column="62" lean-forward="false" selection-start-line="107" selection-start-column="62" selection-end-line="107" selection-end-column="62" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <element signature="imports" expanded="true" />
@@ -268,12 +268,12 @@
       <option name="presentableId" value="Default" />
       <updated>1531762817951</updated>
       <workItem from="1531762822409" duration="1420000" />
-      <workItem from="1531766418338" duration="2135000" />
+      <workItem from="1531766418338" duration="2663000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3555000" />
+    <option name="totallyTimeSpent" value="4083000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="173" y="23" width="1052" height="691" extended-state="0" />
@@ -390,7 +390,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/FindState.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1100">
-          <caret line="107" column="62" lean-forward="true" selection-start-line="107" selection-start-column="62" selection-end-line="107" selection-end-column="62" />
+          <caret line="107" column="62" lean-forward="false" selection-start-line="107" selection-start-column="62" selection-end-line="107" selection-end-column="62" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <element signature="imports" expanded="true" />
